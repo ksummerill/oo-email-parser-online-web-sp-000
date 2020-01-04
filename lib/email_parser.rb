@@ -13,7 +13,7 @@ class EmailAddressParser
 
   # parse string of email addresses into array
   # return only unique email addresses
-  def parse(emails)
+  def parse
     @emails = emails.split(/[\s,]+/).uniq
   end
 
