@@ -7,6 +7,8 @@ class EmailAddressParser
 
   attr_accessor :emails
 
+  @@array = []
+
   # initialize with a list of email addresses either separated with spaces or with commas
   def initialize(emails)
     @emails = emails.split(" ") || emails.split(",")
@@ -15,7 +17,7 @@ class EmailAddressParser
   # parse string of email addresses into array
   # return only unique email addresses
   def parser
-
+    @@array << @emails
   end
 
 
