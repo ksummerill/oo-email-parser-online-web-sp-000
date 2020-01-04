@@ -5,7 +5,7 @@
 
 class EmailAddressParser
 
-  attr_accessor :emails
+  # attr_accessor :emails
 
   # initialize with a list of email addresses either separated with spaces or with commas
   # ex argument: "avi@test.com, arel@test.com"
