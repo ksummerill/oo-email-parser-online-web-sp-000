@@ -5,7 +5,7 @@
 
 class EmailAddressParser
 
-  attr_accessor :
+  # attr_accessor :
 
   # initialize with a list of email addresses either separated with spaces or with commas
   def initialize(emails)
