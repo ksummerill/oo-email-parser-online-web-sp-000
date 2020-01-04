@@ -11,7 +11,8 @@ class EmailAddressParser
 
   # initialize with a list of email addresses either separated with spaces or with commas
   def initialize(emails)
-    @emails = emails.split(" ") || emails.split(",")
+    @emails = emails.split(" ")
+    # || emails.split(",")
   end
 
   # parse string of email addresses into array
