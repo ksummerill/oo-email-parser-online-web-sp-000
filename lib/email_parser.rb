@@ -18,7 +18,7 @@ class EmailAddressParser
   # parse string of email addresses into array
   # return only unique email addresses
   def parse
-    # @@array << 
+    # @@array <<
     @emails
   end
 
